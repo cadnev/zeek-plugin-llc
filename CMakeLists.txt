@@ -8,7 +8,7 @@ include(ZeekPlugin)
 zeek_plugin_begin(Zeek LLC)
 zeek_plugin_cc(src/Plugin.cc src/LLC.cc)
 zeek_plugin_bif(src/events.bif)
-zeek_plugin_dist_files(README CHANGES COPYING VERSION)
+zeek_plugin_dist_files(README.md CHANGES COPYING VERSION)
 zeek_plugin_end()
 
 file(STRINGS "${CMAKE_CURRENT_SOURCE_DIR}/VERSION" VERSION LIMIT_COUNT 1)
