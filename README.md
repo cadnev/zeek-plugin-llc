@@ -61,6 +61,7 @@ RUN echo "===> Installing zeek-llc package..." \
     && cd /tmp/zeek/auxil/ \
     && git clone https://github.com/cadnev/zeek-plugin-llc.git \
     && cd zeek-plugin-llc \
+    && touch README \
     && CC=clang ./configure --zeek-dist=/tmp/zeek \
     && make -j $(nproc) \
     && make install \
