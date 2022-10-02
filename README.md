@@ -2,7 +2,7 @@
 A plugin for [Zeek](https://github.com/zeek/zeek) that analyzes LLC packets
 
 ## Installation
-## Manual:
+### Manual:
 ```sh
 $ cd /tmp/zeek/auxil
 $ git clone https://github.com/cadnev/zeek-plugin-llc.git
