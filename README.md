@@ -8,6 +8,7 @@ $ cd /tmp/zeek/auxil
 $ git clone https://github.com/cadnev/zeek-plugin-llc.git
 $ cd zeek-plugin-llc
 $ ./configure && make install
+$ export ZEEK_PLUGIN_PATH=/tmp/zeek/auxil/zeek-plugin-llc/build
 ```
 
 ### From Dockerfile:
